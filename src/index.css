@@ -1,10 +1,23 @@
-html {
-    font-size: 16px;
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
-body {
-    height: 100vh;
-    width: 100vh;
+#root {
+    font-family: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    height: 100%;
+    box-sizing: border-box;
+    --text1: grey;
+    --input_bg: #f8f8f8;
+    --button_bg: rgb(71, 71, 180);
+    --buttonbg_active: rgb(15, 15, 107);
+    --button_text: white;
+    --error: #f44336;
+}
+
+html {
+    font-size: 18px;
 }
 
 a {
@@ -14,19 +27,19 @@ a {
 
 @media (max-width: 1536px) {
     html {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
 @media (max-width: 1300px) {
     html {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
 @media (max-width: 820px) {
     html {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 

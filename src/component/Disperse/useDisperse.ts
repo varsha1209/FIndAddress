@@ -1,9 +1,9 @@
-import React from 'react'
 
-const useDisperseHook = () => {
-    return {
+const useDisperse = () => {
 
-    }
+    return ({
+      
+    });
 }
 
-export default useDisperseHook;
+export { useDisperse }
