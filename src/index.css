@@ -11,7 +11,7 @@ body {
     --text1: grey;
     --input_bg: #f8f8f8;
     --button_bg: rgb(71, 71, 180);
-    --buttonbg_active: rgb(15, 15, 107);
+    --buttonbg_hover: rgb(81, 81, 163);
     --button_text: white;
     --error: #f44336;
 }
