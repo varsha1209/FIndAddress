@@ -1,10 +1,11 @@
 import './App.css'
+import Disperse from './component/Disperse/Disperse'
 
 function App() {
 
   return (
     <div className='main'>
-      welcome
+      <Disperse />
     </div>
   )
 }
